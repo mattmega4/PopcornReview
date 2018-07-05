@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297597EA20EDEB3300D03028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297597E920EDEB3300D03028 /* AppDelegate.swift */; };
+		297597EC20EDEB3300D03028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297597EB20EDEB3300D03028 /* ViewController.swift */; };
+		297597EF20EDEB3300D03028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297597ED20EDEB3300D03028 /* Main.storyboard */; };
+		297597F220EDEB3300D03028 /* PopcornReivew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 297597F020EDEB3300D03028 /* PopcornReivew.xcdatamodeld */; };
+		297597F420EDEB3300D03028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297597F320EDEB3300D03028 /* Assets.xcassets */; };
+		297597F720EDEB3300D03028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297597F520EDEB3300D03028 /* LaunchScreen.storyboard */; };
+		2975980220EDEB3300D03028 /* PopcornReivewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2975980120EDEB3300D03028 /* PopcornReivewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297597FE20EDEB3300D03028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297597DE20EDEB3200D03028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297597E520EDEB3300D03028;
+			remoteInfo = PopcornReivew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297597E620EDEB3300D03028 /* PopcornReivew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcornReivew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297597E920EDEB3300D03028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		297597EB20EDEB3300D03028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		297597EE20EDEB3300D03028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297597F120EDEB3300D03028 /* PopcornReivew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopcornReivew.xcdatamodel; sourceTree = "<group>"; };
+		297597F320EDEB3300D03028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297597F620EDEB3300D03028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297597F820EDEB3300D03028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297597FD20EDEB3300D03028 /* PopcornReivewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornReivewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2975980120EDEB3300D03028 /* PopcornReivewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornReivewTests.swift; sourceTree = "<group>"; };
+		2975980320EDEB3300D03028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297597E320EDEB3300D03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297597FA20EDEB3300D03028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297597DD20EDEB3200D03028 = {
+			isa = PBXGroup;
+			children = (
+				297597E820EDEB3300D03028 /* PopcornReivew */,
+				2975980020EDEB3300D03028 /* PopcornReivewTests */,
+				297597E720EDEB3300D03028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297597E720EDEB3300D03028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297597E620EDEB3300D03028 /* PopcornReivew.app */,
+				297597FD20EDEB3300D03028 /* PopcornReivewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297597E820EDEB3300D03028 /* PopcornReivew */ = {
+			isa = PBXGroup;
+			children = (
+				297597E920EDEB3300D03028 /* AppDelegate.swift */,
+				297597EB20EDEB3300D03028 /* ViewController.swift */,
+				297597ED20EDEB3300D03028 /* Main.storyboard */,
+				297597F320EDEB3300D03028 /* Assets.xcassets */,
+				297597F520EDEB3300D03028 /* LaunchScreen.storyboard */,
+				297597F820EDEB3300D03028 /* Info.plist */,
+				297597F020EDEB3300D03028 /* PopcornReivew.xcdatamodeld */,
+			);
+			path = PopcornReivew;
+			sourceTree = "<group>";
+		};
+		2975980020EDEB3300D03028 /* PopcornReivewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2975980120EDEB3300D03028 /* PopcornReivewTests.swift */,
+				2975980320EDEB3300D03028 /* Info.plist */,
+			);
+			path = PopcornReivewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297597E520EDEB3300D03028 /* PopcornReivew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975980620EDEB3300D03028 /* Build configuration list for PBXNativeTarget "PopcornReivew" */;
+			buildPhases = (
+				297597E220EDEB3300D03028 /* Sources */,
+				297597E320EDEB3300D03028 /* Frameworks */,
+				297597E420EDEB3300D03028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopcornReivew;
+			productName = PopcornReivew;
+			productReference = 297597E620EDEB3300D03028 /* PopcornReivew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		297597FC20EDEB3300D03028 /* PopcornReivewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2975980920EDEB3300D03028 /* Build configuration list for PBXNativeTarget "PopcornReivewTests" */;
+			buildPhases = (
+				297597F920EDEB3300D03028 /* Sources */,
+				297597FA20EDEB3300D03028 /* Frameworks */,
+				297597FB20EDEB3300D03028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297597FF20EDEB3300D03028 /* PBXTargetDependency */,
+			);
+			name = PopcornReivewTests;
+			productName = PopcornReivewTests;
+			productReference = 297597FD20EDEB3300D03028 /* PopcornReivewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297597DE20EDEB3200D03028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Matthew Howes Singleton";
+				TargetAttributes = {
+					297597E520EDEB3300D03028 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					297597FC20EDEB3300D03028 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 297597E520EDEB3300D03028;
+					};
+				};
+			};
+			buildConfigurationList = 297597E120EDEB3200D03028 /* Build configuration list for PBXProject "PopcornReivew" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297597DD20EDEB3200D03028;
+			productRefGroup = 297597E720EDEB3300D03028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297597E520EDEB3300D03028 /* PopcornReivew */,
+				297597FC20EDEB3300D03028 /* PopcornReivewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297597E420EDEB3300D03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297597F720EDEB3300D03028 /* LaunchScreen.storyboard in Resources */,
+				297597F420EDEB3300D03028 /* Assets.xcassets in Resources */,
+				297597EF20EDEB3300D03028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297597FB20EDEB3300D03028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297597E220EDEB3300D03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297597EC20EDEB3300D03028 /* ViewController.swift in Sources */,
+				297597EA20EDEB3300D03028 /* AppDelegate.swift in Sources */,
+				297597F220EDEB3300D03028 /* PopcornReivew.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297597F920EDEB3300D03028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2975980220EDEB3300D03028 /* PopcornReivewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297597FF20EDEB3300D03028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297597E520EDEB3300D03028 /* PopcornReivew */;
+			targetProxy = 297597FE20EDEB3300D03028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		297597ED20EDEB3300D03028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297597EE20EDEB3300D03028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297597F520EDEB3300D03028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297597F620EDEB3300D03028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2975980420EDEB3300D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2975980520EDEB3300D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2975980720EDEB3300D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8YZSQZRNW;
+				INFOPLIST_FILE = PopcornReivew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewhsingleton.PopcornReivew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2975980820EDEB3300D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8YZSQZRNW;
+				INFOPLIST_FILE = PopcornReivew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewhsingleton.PopcornReivew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2975980A20EDEB3300D03028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8YZSQZRNW;
+				INFOPLIST_FILE = PopcornReivewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewhsingleton.PopcornReivewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcornReivew.app/PopcornReivew";
+			};
+			name = Debug;
+		};
+		2975980B20EDEB3300D03028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8YZSQZRNW;
+				INFOPLIST_FILE = PopcornReivewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewhsingleton.PopcornReivewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopcornReivew.app/PopcornReivew";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297597E120EDEB3200D03028 /* Build configuration list for PBXProject "PopcornReivew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975980420EDEB3300D03028 /* Debug */,
+				2975980520EDEB3300D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975980620EDEB3300D03028 /* Build configuration list for PBXNativeTarget "PopcornReivew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975980720EDEB3300D03028 /* Debug */,
+				2975980820EDEB3300D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2975980920EDEB3300D03028 /* Build configuration list for PBXNativeTarget "PopcornReivewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2975980A20EDEB3300D03028 /* Debug */,
+				2975980B20EDEB3300D03028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		297597F020EDEB3300D03028 /* PopcornReivew.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				297597F120EDEB3300D03028 /* PopcornReivew.xcdatamodel */,
+			);
+			currentVersion = 297597F120EDEB3300D03028 /* PopcornReivew.xcdatamodel */;
+			path = PopcornReivew.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 297597DE20EDEB3200D03028 /* Project object */;
+}
